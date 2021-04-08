@@ -1,4 +1,4 @@
-import ImageGrab
+from PIL import ImageGrab
 import os
 import time
 
@@ -12,17 +12,17 @@ y_max = 851
 
 """
 
-x_pad = 222
-y_pad = 351
+x_pad = 161
+y_pad = 383
 
 def screenGrab():
-    box = (x_pad, y_pad, 722, 851)
+    box = (x_pad, y_pad, 779, 991)
     im = ImageGrab.grab(box)
     #im.save(os.getcwd() + '\\full_snap__' +str(int(time.time())) + '.png', 'PNG')
     return im
 
 def main():
-    screenGrab()
+    screenGrab().show()
 
 if __name__ == '__main__':
     main()
