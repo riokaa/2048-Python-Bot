@@ -1,4 +1,4 @@
-from board import Board
+from ai_term2048.board import Board
 import random
 import copy
 
