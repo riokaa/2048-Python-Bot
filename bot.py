@@ -14,7 +14,7 @@ y_max = 851
 
 """
 
-sleep_time = 0.1  # default 0.25
+sleep_time = 0.4  # default 0.25
 verbose = False
 
 x_pad = 451
